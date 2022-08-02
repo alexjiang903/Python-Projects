@@ -1,11 +1,12 @@
 from art import logo
 from art import vs
 from game_data import data
-from replit import clear
+import os
 import random
 
 is_playing = True
 score = 0
+
 
 indexA = random.randint(0,54)
 indexB = random.randint(0,54)
@@ -14,6 +15,9 @@ celebrityA = data[indexA]
 celebrityB = data[indexB]
 A = [celebrityA['name'], celebrityA['description'], celebrityA['country'], celebrityA['follower_count']]
 B = [celebrityB['name'], celebrityB['description'], celebrityB['country'], celebrityB['follower_count']]
+
+def clear_console():
+  lambda: print('\n'*150)
 
 def item_swapper():
   global B
@@ -69,7 +73,7 @@ def game_function():
 while is_playing == True:
   game_function()
 
-clear()
+clear_console()
 print(logo)
 print('Sorry, that is wrong.')
 print(f'Your score: {score}')
