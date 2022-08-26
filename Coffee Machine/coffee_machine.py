@@ -1,5 +1,5 @@
-from main import MENU
-from main import resources
+from ingredients import MENU
+from ingredients import resources
 
 money = 0
 
