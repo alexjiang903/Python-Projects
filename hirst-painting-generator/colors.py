@@ -1,4 +1,4 @@
-import colorgram
+import colorgram  #may need to install cologram package if you don't have it already
 
 colors = colorgram.extract('painting.jpg', 40)
 # can do any image saved on your computer as long as it is in the same folder as the python scripts
