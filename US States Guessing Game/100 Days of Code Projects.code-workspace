@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"name": "100 Days of Code Projects",
+			"path": "../../Desktop/100 Days of Code Projects"
+		},
+		{
+			"name": "US States Guessing Game",
+			"path": "."
+		},
+		{
+			"path": "../pomodoro-start"
+		},
+		{
+			"path": "../password-manager-start"
+		},
+		{
+			"path": "../Language Flashcard Project"
+		}
+	],
+	"settings": {}
+}
