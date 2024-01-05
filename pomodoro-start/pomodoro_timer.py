@@ -98,7 +98,7 @@ timer_label = Label(text="Timer", font=(FONT_NAME, 48), bg=GREEN, fg=YELLOW)
 
 tomato_canvas = Canvas(width=200, height=224, bg=GREEN, highlightthickness=0)
 tomato_canvas.grid(row=1, column=1)
-tomato_img = PhotoImage(file="tomato.png")
+tomato_img = PhotoImage(file="pomodoro-start/tomato.png")
 tomato_canvas.create_image(100, 112, image=tomato_img)
 timer_text = tomato_canvas.create_text(100,130, text="00:00", fill="White", font=(FONT_NAME, 35, "bold"))
 
