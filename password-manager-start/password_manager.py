@@ -94,7 +94,7 @@ default_email = "alex.jiang903@gmail.com"
 
 canvas = Canvas(width=200, height=200)
 canvas.grid(column=1, row=0)
-logo = PhotoImage(file="logo.png")
+logo = PhotoImage(file="password-manager-start/logo.png")
 
 canvas.create_image(100,100, image=logo)
 
